@@ -604,6 +604,15 @@
       <field>
         <name>Tag</name>
       </field>
+      <field>
+        <name>Taetigkeit_Von</name>
+      </field>
+      <field>
+        <name>Taetigkeit_Bis</name>
+      </field>
+      <field>
+        <name>minutes</name>
+      </field>
     </group>
     <fields>
       <field>
@@ -931,41 +940,42 @@
     </partitioning>
     <fields>
       <field>
-        <name>﻿Kunde</name>
+        <name>Kunde</name>
+        <rename/>
       </field>
       <field>
         <name>Tag</name>
+        <rename/>
       </field>
       <field>
         <name>Uhrzeit_Von</name>
+        <rename/>
       </field>
       <field>
         <name>Uhrzeit_Bis</name>
+        <rename/>
+      </field>
+      <field>
+        <name>Abrechenbar?</name>
+        <rename/>
       </field>
       <field>
         <name>Tätigkeit</name>
+        <rename/>
       </field>
       <field>
         <name>Stunden</name>
+        <rename/>
+      </field>
+      <field>
+        <name>Total</name>
+        <rename/>
+      </field>
+      <field>
+        <name>44:50:00</name>
+        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
-      <meta>
-        <name>﻿Kunde</name>
-        <rename>﻿Kunde</rename>
-        <type>None</type>
-        <length>3</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
       <meta>
         <name>Tag</name>
         <rename>Tag</rename>
@@ -1188,7 +1198,7 @@
     <length>Characters</length>
     <add_to_result_filenames>Y</add_to_result_filenames>
     <file>
-      <name>/Users/grunsch/Documents/Zeiten/marc zeiterfassung 2020-07 - Timesheet.csv</name>
+      <name>/Users/grunsch/Documents/Zeiten/2019 Zeiten</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -1200,7 +1210,7 @@
     </filters>
     <fields>
       <field>
-        <name>﻿Kunde</name>
+        <name>Kunde</name>
         <type>String</type>
         <format/>
         <currency>$</currency>
@@ -1239,7 +1249,7 @@
         <nullif>-</nullif>
         <ifnull/>
         <position>-1</position>
-        <length>5</length>
+        <length>8</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
         <repeat>N</repeat>
@@ -1254,8 +1264,23 @@
         <nullif>-</nullif>
         <ifnull/>
         <position>-1</position>
-        <length>5</length>
+        <length>8</length>
         <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>Abrechenbar?</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <nullif>-</nullif>
+        <ifnull/>
+        <position>-1</position>
+        <length>15</length>
+        <precision>0</precision>
         <trim_type>none</trim_type>
         <repeat>N</repeat>
       </field>
@@ -1269,7 +1294,7 @@
         <nullif>-</nullif>
         <ifnull/>
         <position>-1</position>
-        <length>125</length>
+        <length>169</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
         <repeat>N</repeat>
@@ -1284,7 +1309,37 @@
         <nullif>-</nullif>
         <ifnull/>
         <position>-1</position>
-        <length>5</length>
+        <length>8</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>Total</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <nullif>-</nullif>
+        <ifnull/>
+        <position>-1</position>
+        <length>0</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>44:50:00</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <nullif>-</nullif>
+        <ifnull/>
+        <position>-1</position>
+        <length>0</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
         <repeat>N</repeat>

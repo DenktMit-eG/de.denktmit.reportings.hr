@@ -806,21 +806,27 @@
     <fields>
       <field>
         <name>Kunde</name>
+        <rename/>
       </field>
       <field>
         <name>Tag</name>
+        <rename/>
       </field>
       <field>
         <name>Uhrzeit_Von</name>
+        <rename/>
       </field>
       <field>
         <name>Uhrzeit_Bis</name>
+        <rename/>
       </field>
       <field>
         <name>Tätigkeit</name>
+        <rename/>
       </field>
       <field>
         <name>Stunden</name>
+        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
       <meta>
@@ -1124,7 +1130,7 @@ var HHMM = h.toString() + ":" + (m&lt;10?"0":"") + m.toString();</jsScript_scrip
     <length>Characters</length>
     <add_to_result_filenames>Y</add_to_result_filenames>
     <file>
-      <name>/Users/grunsch/Documents/Zeiten/marc zeiterfassung 2020-07 - Timesheet.csv</name>
+      <name>/Users/grunsch/Downloads/t</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -1196,6 +1202,21 @@ var HHMM = h.toString() + ":" + (m&lt;10?"0":"") + m.toString();</jsScript_scrip
         <repeat>N</repeat>
       </field>
       <field>
+        <name>Abrechenbar?</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <nullif>-</nullif>
+        <ifnull/>
+        <position>-1</position>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
         <name>Tätigkeit</name>
         <type>String</type>
         <format/>
@@ -1205,7 +1226,7 @@ var HHMM = h.toString() + ":" + (m&lt;10?"0":"") + m.toString();</jsScript_scrip
         <nullif>-</nullif>
         <ifnull/>
         <position>-1</position>
-        <length>156</length>
+        <length>216</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
         <repeat>N</repeat>
@@ -1221,6 +1242,21 @@ var HHMM = h.toString() + ":" + (m&lt;10?"0":"") + m.toString();</jsScript_scrip
         <ifnull/>
         <position>-1</position>
         <length>5</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>64:45:00</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <nullif>-</nullif>
+        <ifnull/>
+        <position>-1</position>
+        <length>0</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
         <repeat>N</repeat>

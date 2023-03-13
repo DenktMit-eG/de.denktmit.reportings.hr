@@ -36,6 +36,7 @@ Ticket 3: Checks, that working time is not over 5 hours without a break of at le
 Ticket 1:
 
 - Add your working times in correct csv format into the "Read Arbeitszeiten" text file input
+- Preview rows to detect potential errors
 - Add the [Vorlesungszeiten.csv](src/main/resources/Vorlesungszeiten.csv) to the "Read Vorlesungszeiträume" text file
   input (note that only semesters from 2019-2024 are included)
 - Run the ticket
@@ -43,13 +44,20 @@ Ticket 1:
 
 Ticket 2:
 - Add your working times in correct csv format into the "Read Arbeitszeiten" text file input
+- Preview rows to detect potential errors
 - Run the ticket
 - Look into "Preview data" tab to see your results, if your times are correct or should be revised
 
 Ticket 3:
 - Add your working times in correct csv format into the "Read Arbeitszeiten" text file input
+- Preview rows to detect potential errors
 - Run the ticket
 - Look into "Preview data" tab to see your results, if your times are correct or should be revised
+
+# IMPORTANT! Your working times should have the following format:
+- `Kunde,Tag,Uhrzeit Von,Uhrzeit Bis,Tätigkeit`   Example:
+- `SDM,01.03.2023,8:00,12:00,Arbeiten am Reporting Projekt`
+- "Uhrzeit Von" and "Uhrzeit Bis" need the format HH:mm
 
 ## Issue handling
 
