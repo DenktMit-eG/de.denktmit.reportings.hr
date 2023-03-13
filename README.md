@@ -1,6 +1,6 @@
 # de.denktmit.reportings.hr
 
-This project
+This project implements 3 tickets to confirm the correctness of a student's working hours.
 
 # Local setup on macOS
 
@@ -10,24 +10,24 @@ This project
 ## Run the application using the command line
 
 1. Open a terminal and navigate to `/Applications/data-integration/Data\ Integration.app\Contents\MacOS`
-2. In this folder you have to run the  `./JavaApplicationStub`
-3. Now the application should open
-4. Now the software starts, so you can add the 3 tickets from the [java folder](src/main/java) to the software (open
+2. In this folder you have to execute the `./JavaApplicationStub`
+3. Now, the application should open
+4. After the software started, you can add the 3 tickets from the [java folder](src/main/java) to the software (open
    file option in the software)
 
 ## Run the application from Finder
 
-1. Open the data-integration folder right-click the Data Integration symbol
+1. Open the data-integration folder, right-click the Data Integration symbol
 2. Click "Show Package Contents" (Packetinhalte anzeigen)
 3. Navigate to `Contents/MacOS/JavaApplicationStub` execute the JavaApplicationStub exec
-4. Now the software starts, so you can add the 3 tickets from the [java folder](src/main/java) to the software (open
+4. After the software started, you can add the 3 tickets from the [java folder](src/main/java) to the software (open
    file option in the software)
 
 ## Ticket explanation
 
 Ticket 1: Checks, that working hours are <= 20 per week in lecture period
 
-Ticket 2: Checks, that the working time of 8 hours per day hat not been exceeded
+Ticket 2: Checks, that the working time of 8 hours per day has not been exceeded
 
 Ticket 3: Checks, that working time is not over 5 hours without a break of at least 15 minutes
 
