@@ -58,6 +58,7 @@ Ticket 3:
 - `Kunde,Tag,Uhrzeit Von,Uhrzeit Bis,Tätigkeit`   Example:
 - `SDM,01.03.2023,8:00,12:00,Arbeiten am Reporting Projekt`
 - "Uhrzeit Von" and "Uhrzeit Bis" need the format HH:mm
+- You also have to reload your fields
 
 ## Issue handling
 

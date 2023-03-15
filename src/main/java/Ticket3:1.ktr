@@ -430,7 +430,7 @@
     <created_date>2022/03/21 13:21:36.337</created_date>
     <modified_user>-</modified_user>
     <modified_date>2022/03/21 13:21:36.337</modified_date>
-    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
+    <key_for_session_key>H4sIAAAAAAAA/wMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -603,15 +603,6 @@
     <group>
       <field>
         <name>Tag</name>
-      </field>
-      <field>
-        <name>Taetigkeit_Von</name>
-      </field>
-      <field>
-        <name>Taetigkeit_Bis</name>
-      </field>
-      <field>
-        <name>minutes</name>
       </field>
     </group>
     <fields>
@@ -972,17 +963,34 @@
         <rename/>
       </field>
       <field>
-        <name>44:50:00</name>
+        <name>50:00:00</name>
         <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
       <meta>
+        <name>Kunde</name>
+        <rename>Kunde</rename>
+        <type>None</type>
+        <length>14</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
         <name>Tag</name>
         <rename>Tag</rename>
-        <type>Date</type>
+        <type>None</type>
         <length>10</length>
-        <precision>-2</precision>
-        <conversion_mask>yyyy-MM-dd'T'HH:mm:ss</conversion_mask>
+        <precision>4</precision>
+        <conversion_mask>yyyy.MM.dd HH:mm:ss</conversion_mask>
         <date_format_lenient>false</date_format_lenient>
         <date_format_locale/>
         <date_format_timezone/>
@@ -996,7 +1004,7 @@
       <meta>
         <name>Uhrzeit_Von</name>
         <rename>Uhrzeit_Von</rename>
-        <type>Date</type>
+        <type>None</type>
         <length>5</length>
         <precision>-2</precision>
         <conversion_mask>HH:mm:ss</conversion_mask>
@@ -1013,7 +1021,7 @@
       <meta>
         <name>Uhrzeit_Bis</name>
         <rename>Uhrzeit_Bis</rename>
-        <type>Date</type>
+        <type>None</type>
         <length>5</length>
         <precision>-2</precision>
         <conversion_mask>HH:mm:ss</conversion_mask>
@@ -1028,10 +1036,27 @@
         <storage_type/>
       </meta>
       <meta>
+        <name>Abrechenbar?</name>
+        <rename>Abrechenbar?</rename>
+        <type>None</type>
+        <length>15</length>
+        <precision>0</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
         <name>Tätigkeit</name>
         <rename>Tätigkeit</rename>
         <type>None</type>
-        <length>125</length>
+        <length>274</length>
         <precision>-2</precision>
         <conversion_mask/>
         <date_format_lenient>false</date_format_lenient>
@@ -1047,10 +1072,44 @@
       <meta>
         <name>Stunden</name>
         <rename>Stunden</rename>
-        <type>Date</type>
+        <type>None</type>
         <length>5</length>
         <precision>-2</precision>
         <conversion_mask>HH:mm</conversion_mask>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>Total</name>
+        <rename>Total</rename>
+        <type>None</type>
+        <length>0</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>50:00:00</name>
+        <rename>50:00:00</rename>
+        <type>None</type>
+        <length>0</length>
+        <precision>-2</precision>
+        <conversion_mask/>
         <date_format_lenient>false</date_format_lenient>
         <date_format_locale/>
         <date_format_timezone/>
@@ -1198,6 +1257,26 @@
     <length>Characters</length>
     <add_to_result_filenames>Y</add_to_result_filenames>
     <file>
+      <name>/Users/grunsch/Documents/Zeiten/2023 Zeiten</name>
+      <filemask/>
+      <exclude_filemask/>
+      <file_required>N</file_required>
+      <include_subfolders>N</include_subfolders>
+      <name>/Users/grunsch/Documents/Zeiten/2022 Zeiten</name>
+      <filemask/>
+      <exclude_filemask/>
+      <file_required>N</file_required>
+      <include_subfolders>N</include_subfolders>
+      <name>/Users/grunsch/Documents/Zeiten/2021 Zeiten</name>
+      <filemask/>
+      <exclude_filemask/>
+      <file_required>N</file_required>
+      <include_subfolders>N</include_subfolders>
+      <name>/Users/grunsch/Documents/Zeiten/2020 Zeiten</name>
+      <filemask/>
+      <exclude_filemask/>
+      <file_required>N</file_required>
+      <include_subfolders>N</include_subfolders>
       <name>/Users/grunsch/Documents/Zeiten/2019 Zeiten</name>
       <filemask/>
       <exclude_filemask/>
@@ -1219,7 +1298,7 @@
         <nullif>-</nullif>
         <ifnull/>
         <position>-1</position>
-        <length>3</length>
+        <length>14</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
         <repeat>N</repeat>
@@ -1249,7 +1328,7 @@
         <nullif>-</nullif>
         <ifnull/>
         <position>-1</position>
-        <length>8</length>
+        <length>5</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
         <repeat>N</repeat>
@@ -1264,7 +1343,7 @@
         <nullif>-</nullif>
         <ifnull/>
         <position>-1</position>
-        <length>8</length>
+        <length>5</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
         <repeat>N</repeat>
@@ -1294,7 +1373,7 @@
         <nullif>-</nullif>
         <ifnull/>
         <position>-1</position>
-        <length>169</length>
+        <length>274</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
         <repeat>N</repeat>
@@ -1309,7 +1388,7 @@
         <nullif>-</nullif>
         <ifnull/>
         <position>-1</position>
-        <length>8</length>
+        <length>5</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
         <repeat>N</repeat>
@@ -1330,7 +1409,7 @@
         <repeat>N</repeat>
       </field>
       <field>
-        <name>44:50:00</name>
+        <name>50:00:00</name>
         <type>String</type>
         <format/>
         <currency>$</currency>
